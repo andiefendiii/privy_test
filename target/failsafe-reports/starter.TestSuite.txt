@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: starter.TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 31.633 s <<< FAILURE! - in starter.TestSuite
+otp match(OTP Match)  Time elapsed: 1.232 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <406>.
+
+
+Api register success(Register)  Time elapsed: 2.495 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <422>.
+
+

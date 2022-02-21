@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="OTP Match" skipped="0" tests="1" time="1.23" timestamp="2022-02-21 12:41:51"><testcase name="otp match"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;406&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;406&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;406&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)&#13;
+starter.account.java.RegisterOtpMatch.hitEndpointOtpMatch(RegisterOtpMatch.java:33)&#13;
+starter.account.stepdef.otpmatchSteps.iAmInputOtp(otpmatchSteps.java:19)&#13;
+✽.I am input otp(file:src/test/resources/features/register/otpmatch.feature:8)&#13;
+</system-err></testcase></testsuite>
